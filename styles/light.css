@@ -5,9 +5,9 @@
   --question-color: #353430;
   --background-color: #FFF1F7;
   --background-image: url("../images/cover-image-light.png");
-  --main-text-color: #353430; 
+  --main-text-color: #353430;
   --decoration-display: none;
-  --main-question-color: #353430;  
+  --main-question-color: #353430;
 }
 
 
@@ -20,8 +20,8 @@
     --question-color: #353430;
     --background-color: #FFF1F7;
     --background-image: url("../images/cover-image-light.png");
-    --main-text-color: #353430; 
-    --decoration-display: none;  
+    --main-text-color: #353430;
+    --decoration-display: none;
     --main-question-color: #353430;
   }
 }
