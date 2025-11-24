@@ -18,7 +18,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="decoration__element">rec</div>
+      <div class="decoration__element" aria-hidden="true"></div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -48,10 +48,12 @@
       <h1 class="header__title">
         no focus
       </h1>
-      <p class="header__description">
-        Что делать, когда не можешь делать ничего
-        <br>Или почему нам так сложно сконцентрироваться, особенно когда очень надо
-      </p>
+      <div class="description__container">
+        <p class="header__description title-decor">
+          Что делать, когда не можешь делать ничего
+          <br>Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+        </p>
+      </div>
     </header>
     <main>
       <section class="main__section question_one">
@@ -66,10 +68,8 @@
             <p class="reason__description">
               Особенно сложно сосредоточиться, когда задач много и все они — важные. 
               Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? 
-              А дело в том, что её просто не существует. Исследователи 
-              <a class="accent-link" href="#0">
-                выяснили
-              </a>, что мозгу тяжело концентрироваться даже на двух делах одновременно. 
+              А дело в том, что её просто не существует. Исследователи
+              <a class="accent-link" href="#0">выяснили</a>, что мозгу тяжело концентрироваться даже на двух делах одновременно. 
               А когда в поле внимания попадает несколько важных задач, 
               организм паникует и выделяет кортизол и адреналин — «гормоны стресса». 
               Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
@@ -111,6 +111,7 @@
             <h3 class="reason__title">
               Еда
             </h3>
+            <div class="description__container">
             <p class="reason__description">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно доставляют в мозг энергию 
               и помогают ему лучше работать. Но уходит эта энергия также быстро, как и приходит. 
@@ -205,15 +206,15 @@
           А можно в картинках?
         </h2>
         <div class="gallery-container">
-          <img class="question__section__image-item" src="./images/sunset.png" alt="горы" loading="lazy">
-          <img class="question__section__image-item" src="./images/ice-cream.png" alt="мороженое" loading="lazy">
-          <img class="question__section__image-item" src="./images/tape.png" alt="кассета" loading="lazy">
-          <img class="question__section__image-item" src="./images/books.png" alt="книги" loading="lazy"> 
-          <img class="question__section__image-item" src="./images/street.png" alt="улица" loading="lazy">
+          <img class="question__section__image-item sunset" src="./images/sunset.png" alt="горы" loading="lazy">
+          <img class="question__section__image-item icecream" src="./images/ice-cream.png" alt="мороженое" loading="lazy">
+          <img class="question__section__image-item cassette" src="./images/tape.png" alt="кассета" loading="lazy">
+          <img class="question__section__image-item books" src="./images/books.png" alt="книги" loading="lazy"> 
+          <img class="question__section__image-item street" src="./images/street.png" alt="улица" loading="lazy">
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer decorated-zone">
       <h2 class="footer__title">
         focus
       </h2>
